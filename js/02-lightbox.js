@@ -20,12 +20,6 @@ galleryList.insertAdjacentHTML("beforeend",  galleryMarkap);
 //клик по элементу галереи, делегирование
 galleryList.addEventListener("click", onPictureClick);
 
-function onPictureClick(evt) {
-    evt.preventDefault();
-    if (!evt.target.classList.contains("gallery__image")) {
-        return;
-    }
-};
 
 //опции к библиотеке  SimpleLightbox
 
